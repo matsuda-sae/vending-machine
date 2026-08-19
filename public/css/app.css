@@ -1,0 +1,9 @@
+/* アプリ共通スタイル */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+}
