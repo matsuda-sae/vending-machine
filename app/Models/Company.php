@@ -15,9 +15,8 @@ class Company extends Model
         'representative_name',
     ];
 
-    // 商品とのリレーション
     public function products()
     {
-        return $this->hasMany(Company::class);
+        return $this->hasMany(Product::class);
     }
 }
